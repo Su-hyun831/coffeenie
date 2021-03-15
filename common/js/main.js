@@ -1,12 +1,12 @@
 $(function(){
     /*swiper*/
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.mainVisArea .swiper-container', {
         navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
         },
         autoplay: {
-            delay: 2000,
+            delay: 5000,
         },
         loop : true,
     });
@@ -38,16 +38,22 @@ $(function(){
         
         
     });
-    var swiper = new Swiper('.mainCon3 > .eventArea > .swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },autoplay: {
-            delay: 2000,
+    
+    /*mainCon Swiper*/
+    var Con3Swiper = new Swiper('.mainCon3 .swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
         },
-        loop : true,
+        /*pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },*/
+        
+        
     });
     
 });
