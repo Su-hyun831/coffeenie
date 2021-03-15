@@ -36,14 +36,15 @@
 .mainCon2 .newBx a:hover img{transform: scale(1.1);}
 .mainCon2 .newBx span{display: block;font-size: 24px; padding:40px 0 35px 0;text-align: center;}
 .mainCon2 .mainCon2Bg{position: absolute; left: 0; top: 0; z-index: -10; background: url(../images/main2_bg.png)no-repeat;width: 100%; height: 100%;}
-
 .mainCon3{margin-top: 100px;background: url(../images/event_bg.png)no-repeat; width: 100%; height: 100%;padding-bottom: 65px;}
+.mainCon3 .eventArea{position: relative;}
 .mainCon3 h2{font-size: 48px;padding: 85px 0 65px 0;text-align: center; position: relative; top: 150px; opacity: 0;}
-.mainCon3 .eventArea ul{position: relative; top: 150px; opacity: 0;}
-.mainCon3 .eventArea ul:after{content: ""; display: block; clear: both;}
-.mainCon3 .eventArea ul li{float: left;}
-.mainCon3 .eventArea ul li+li{padding-left: 20px;}
-
+.mainCon3 .swiper-container{top: 150px; opacity: 0;}
+.mainCon3 .swiper-wrapper .swiper-slide{width:360px !important;}
+.mainCon3 .swiper-pagination {position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); text-align: center;transition: 300ms opacity; transform: translate3d(0, 0, 0); z-index: 10;}
+.mainCon3 .swiper-pagination-bullet{width: 13px; height: 13px; display: inline-block; border-radius: 50%; background: #c8dcf7; opacity:1;}
+.mainCon3 .swiper-pagination-bullet+.swiper-pagination-bullet{margin-left:5px;}
+.mainCon3 .swiper-pagination-bullet-active{opacity: 1;background-color: #5987c5;}
 .mainCon4{padding: 120px 0;position: relative;}
 .mainCon4:after{content: "";display: block; clear: both;}
 .mainCon4 .con{padding: 30px; border: 1px solid #eaeaea; width: 410px; height: 220px; position: relative; top: 150px; opacity: 0; box-sizing: border-box;}
@@ -61,9 +62,10 @@ top: 30px;right: 30px;}
 .mainCon4 .franCon{position: relative; top: 150px; opacity: 0; float: right; background: url(../images/bt.png)no-repeat; width:360px; height: 439px; color: #fff; text-align: center; box-sizing: border-box;}
 .mainCon4 .franCon h3{font-size: 24px; font-weight: 700;padding: 55px 0 65px 0;}
 .mainCon4 .franCon p{font-size: 18px; font-weight: 500; line-height: 38px;}
-.mainCon4 .franCon .moreBt{display: block; background: url(../images/btn_ico.png)no-repeat;width: 45px; height: 40px;position: absolute;
+.mainCon4 .franCon .moreBt{display: none; background: url(../images/btn_ico.png)no-repeat;width: 45px; height: 40px;position: absolute;
 bottom: 60px;right:95px;text-align: center;}
 .mainCon4 .franCon .moreBt::before{content: "더보기";display: block;width: 90px; font-size: 14px; position: absolute;top:50%;left:-85px;transform: translateY(-50%);color: #fff;font-size: 24px;}
+.mainCon4 .franCon:hover .moreBt{display: block;}
 .mainCon4 .advCon{float: left; background: url(../images/adv_bg.png)no-repeat; margin-right: -1px;}
 .mainCon4 .advCon a{color: #fff;}
 .mainCon4 .advCon span{display: block;padding-top: 25px;}
