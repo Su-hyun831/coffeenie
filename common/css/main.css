@@ -10,7 +10,9 @@
 .mainVisArea .swiper-container .swiper-button-prev{width: 60px; height: 60px; background: url(../images/mainVis_previous.svg) no-repeat center center; opacity: 0.8; left: 40px; transition: all 0.3s;}
 .mainVisArea .swiper-container .swiper-button-prev:hover{opacity: 0.5;}
 .mainVisArea .swiper-container .swiper-button-prev:after{display: none;}
-
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column-reverse;
+}
 /*common*/
 .mainCon{width: 1180px; margin: 0 auto;}
 

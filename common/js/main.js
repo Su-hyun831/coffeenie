@@ -57,8 +57,6 @@ $(function(){
 //반응형 비주얼
 $(function(){
   var $setElem =$('.swiper-slide .switch'),
-        pcSize ="_",
-        mSize ="_m",
         $width = window.innerWidth,
         replacewidth=756;
     $setElem.each(function(){
@@ -67,12 +65,12 @@ $(function(){
         function imgSize(){
             if(window.innerWidth < replacewidth){
                 console.log('반응형 실행');
-                $this.attr('src',$this.attr('src').replace(pcSize,mSize)).css({
+                $this.attr('src',$this.attr('src').replace("_.png","_m.png")).css({
                     visibility:'visible',
                     width:'100%',
                 });
             }else{
-               $this.attr('src',$this.attr('src').replace(mSize,pcSize)).css({
+               $this.attr('src',$this.attr('src').replace("_m.png","_.png")).css({
                     visibility:'visible',
                 });
             }

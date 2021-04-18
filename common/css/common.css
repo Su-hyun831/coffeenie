@@ -84,8 +84,15 @@ address{font-style: normal;}
     .mMenuArea .gnbArea .twoD{background-color: #fff; padding: 0 15px;border-bottom: 1px solid #dadada; display: none;}
     .mMenuArea .gnbArea .twoD > ul > li> a{ display: block; padding: 13px 15px;border-bottom: 1px solid #dadada;}
     .mMenuArea .gnbArea .twoD > ul > li:hover> a{color: #5987c5;font-weight: 500;}
-    #cBody .swiper-wrapper .slider3 .info{display: none;}
-    #cBody .mainCon1 .mainIco+.mainIco{padding-left:35px;}
+    #cBody .mainVisArea .swiper-wrapper .slider3 .info{display: none;}
+    #cBody .mainVisArea .swiper-button-prev,#cBody .mainVisArea .swiper-button-next{width:7%; height:7%;}
+    #cBody .mainCon1{width: 100%;}
+    #cBody .mainCon1 .container{display: flex;justify-content: center;}
+    #cBody .mainCon1 .mainIco{display: grid; grid-template-columns:100px;padding-left: 0;}
+    #cBody .mainCon1 .mainIco img{width: 100%;}
+    #cBody .mainCon1 .mainIco .tit{font-size: 16px;}
+    #cBody .mainCon1 .mainIco .txt{font-size: 14px;}
+    #cBody .mainCon1 .mainIco+.mainIco{padding-left:30px;}
     #cBody .mainCon2 .newArea{width: 100%;}
     #cBody .mainCon2 .mainCon2Bg{ background-image:url(../images/new_bg_m.png); background-size: cover; }
     #cBody .mainCon2 .newArea .boxArea{display: flex;justify-content: center;}
