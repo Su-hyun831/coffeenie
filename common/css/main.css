@@ -2,7 +2,8 @@
 
 /*mainVisArea*/
 .mainVisArea{}
-.mainVisArea .swiper-container{}
+.mainVisArea .swiper-container .slider3{position: relative;}
+.mainVisArea .swiper-container .slider3 .info{font-size: 18px; font-weight: 500; color: #0d2548; background-color: #fff; border-radius: 27px;width: 195px; line-height: 55px;position: absolute;top:305px; left: 455px;text-align: center;}
 .mainVisArea .swiper-container .swiper-button-next{width: 60px; height: 60px; background: url(../images/mainVis_next.svg) no-repeat center center; opacity: 0.8; right: 40px; transition: all 0.3s;}
 .mainVisArea .swiper-container .swiper-button-next:hover{opacity: 0.5;}
 .mainVisArea .swiper-container .swiper-button-next:after{display: none;}
@@ -42,10 +43,6 @@
 .mainCon3 h2{font-size: 48px; padding: 85px 0 65px 0; text-align: center; position: relative; top: 150px; opacity: 0;}
 .mainCon3 .swiper-container{top: 150px; opacity: 0;}
 .mainCon3 .swiper-wrapper .swiper-slide{width: 360px !important;}
-/*.mainCon3 .swiper-pagination{position: absolute; bottom: -35px; left: 47.5%; transform: translateX(-47.5%); text-align: center; transition: 300ms opacity; transform: translate3d(0, 0, 0); z-index: 10;}
-.mainCon3 .swiper-pagination-bullet{width: 13px; height: 13px; display: inline-block; border-radius: 50%; background: #c8dcf7; opacity:1;}
-.mainCon3 .swiper-pagination-bullet+.swiper-pagination-bullet{margin-left : 5px;}
-.mainCon3 .swiper-pagination-bullet-active{opacity: 1; background-color: #5987c5;}*/
 
 .mainCon4{padding: 120px 0; position: relative;}
 .mainCon4:after{content: ""; display: block; clear: both;}
@@ -73,8 +70,8 @@ top: 30px;right: 30px;}
 .mainCon4 .advCon .tit{font-size: 18px; font-weight: 500;}
 .mainCon4 .advCon .txt{font-size: 24px; font-weight: 500;}
 .mainCon4 .advCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #fff; margin-top: 10px;}
-.mainCon4 .renCon{float: left; background-color: #fcfdff;}
+.mainCon4 .renCon{float: left; background-color: #fcfdff;position: relative;}
 .mainCon4 .renCon h3{line-height: 24px;}
 .mainCon4 .renCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #000; margin-top: 10px;}
 .mainCon4 .renCon p{font-size: 18px; line-height: 30px; padding-top: 25px;}
-.mainCon4 .renCon .renIco{display: inline-block; position: relative; bottom: 0; left: 300px; background: url(../images/rental_ico.png)no-repeat; width: 55px; height: 55px;}
+.mainCon4 .renCon .renIco{display: inline-block; position: absolute; bottom:70px; left: 300px; background: url(../images/rental_ico.png)no-repeat; width: 55px; height: 55px;}

@@ -48,12 +48,39 @@ $(function(){
             delay: 3000,
             disableOnInteraction: false,
         },
-        /*pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },*/
-        
         
     });
     
 });
+
+
+//반응형 비주얼
+$(function(){
+  var $setElem =$('.swiper-slide .switch'),
+        pcSize ="_",
+        mSize ="_m",
+        $width = window.innerWidth,
+        replacewidth=756;
+    $setElem.each(function(){
+        var $this =$(this);
+        
+        function imgSize(){
+            if(window.innerWidth < replacewidth){
+                console.log('반응형 실행');
+                $this.attr('src',$this.attr('src').replace(pcSize,mSize)).css({
+                    visibility:'visible',
+                    width:'100%',
+                });
+            }else{
+               $this.attr('src',$this.attr('src').replace(mSize,pcSize)).css({
+                    visibility:'visible',
+                });
+            }
+        }$(window).resize(function(){
+            imgSize();
+        });
+        imgSize();
+        
+    });
+    
+    });

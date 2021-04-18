@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>COFFEEINE</title>
@@ -11,6 +12,7 @@
     <script src="../common/js/common.js"></script>
     <script src="../common/js/main.js"></script>
 </head>
+
 <body>
     <div id="wrapper">
         <div id="util">
@@ -24,9 +26,7 @@
         <header id="header">
             <div class="container">
                 <h1 class="logo">
-                    <a href="#">
-                        <img src="../common/images/logo.png" alt="커피니 로고">
-                    </a>
+                    <a href="#"><img src="../common/images/logo.png" alt="커피니 로고"></a>
                 </h1>
                 <nav>
                     <ul id="gnb">
@@ -34,10 +34,10 @@
                             <a href="#">COFFEEINE</a>
                             <div class="towD">
                                 <ul>
-                                    <li><a href="../sub/brandstory.html">브랜드 소개</a></li>
-                                    <li><a href="../sub/coffeeineNews.html">커피니 소식</a></li>
-                                    <li><a href="#">제휴 문의</a></li>
-                                    <li><a href="#">오시는 길</a></li>
+                                    <li><a href="../sub/coffeeine/brandstory.html">브랜드 소개</a></li>
+                                    <li><a href="../sub/coffeeine/coffeeineNews.html">커피니 소식</a></li>
+                                    <li><a href="../sub/coffeeine/Affiliate.html">제휴 문의</a></li>
+                                    <li><a href="../sub/coffeeine/directions.html">오시는 길</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -45,9 +45,9 @@
                             <a href="#">MENU</a>
                             <div class="towD">
                                 <ul>
-                                    <li><a href="../sub/new.html">신제품</a></li>
-                                    <li><a href="../sub/berverage.html">음료</a></li>
-                                    <li><a href="../sub/dessert.html">디저트</a></li>
+                                    <li><a href="../sub/menu/new.html">신제품</a></li>
+                                    <li><a href="../sub/menu/berverage.html">음료</a></li>
+                                    <li><a href="../sub/menu/dessert.html">디저트</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -86,17 +86,87 @@
                 <div class="gnbBg"></div>
             </div>
         </header>
+        <div class="mHeader">
+            <div>
+                <button type="button" class="mBtn">전체메뉴열기</button>
+                <h1 class="logo"><a href="#"><img src="../common/images/logo.png" alt="모바일로고"></a></h1>
+            </div>
+        </div>
+        <div class="mMenuArea">
+            <div class="top">
+                <a href="#" class="login">로그인</a>
+                <a href="#" class="join">회원가입</a>
+                <button type="button" class="closeBt">전체메뉴닫기</button>
+            </div>
+            <div class="gnbArea">
+                <ul id="gnb">
+                    <li class="">
+                        <a href="#">COFFEEINE</a>
+                        <div class="twoD">
+                            <ul>
+                                <li><a href="../sub/coffeeine/brandstory.html">브랜드 소개</a></li>
+                                <li><a href="../sub/coffeeine/coffeeineNews.html">커피니 소식</a></li>
+                                <li><a href="../sub/coffeeine/Affiliate.html">제휴 문의</a></li>
+                                <li><a href="../sub/coffeeine/directions.html">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MENU</a>
+                        <div class="twoD">
+                            <ul>
+                                <li><a href="../sub/menu/new.html">신제품</a></li>
+                                <li><a href="../sub/menu/berverage.html">음료</a></li>
+                                <li><a href="../sub/menu/dessert.html">디저트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERSHIP</a>
+                        <div class="twoD">
+                            <ul>
+                                <li><a href="#">커피:니 멤버스</a></li>
+                                <li><a href="#">커피:니 카드</a></li>
+                                <li><a href="#">고객의 소리</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="twoD">
+                            <ul>
+                                <li><a href="#">매장 안내</a></li>
+                                <li><a href="#">신규 매장</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">FRANCHISE</a>
+                        <div class="twoD">
+                            <ul>
+                                <li><a href="#">가맹 안내</a></li>
+                                <li><a href="#">가맹 상담</a></li>
+                                <li><a href="#">렌탈 서비스</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <main id="cBody">
             <div class="mainVisArea">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="../common/images/mainvisal2.png"></div>
-                        <div class="swiper-slide"><img src="../common/images/mainvisual1.png"></div>
-                        <div class="swiper-slide"><img src="../common/images/mainvis3.png" alt="렌탈신청"></div>
-                        <div class="swiper-slide"><img src="../common/images/mainvis4.png" alt="유자차"></div>
+                        <div class="swiper-slide"><img class="switch" src="../common/images/mainvis1_.png" alt="딸기스토리"></div>
+                        <div class="swiper-slide"><img class="switch" src="../common/images/mainvis2_.png" alt="인테리어"></div>
+                        <div class="swiper-slide slider3"><img class="switch" src="../common/images/mainvis3_.png" alt="렌탈신청">
+                            <a href="#"><span class="info">신청안내 바로가기</span></a>
+                        </div>
+                        <div class="swiper-slide"><img class="switch" src="../common/images/mainvis4_.png" alt="유자차"></div>
                     </div>
                     <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>    
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
             <div class="mainCon1 mainCon">
@@ -126,27 +196,29 @@
             </div>
             <div class="mainCon2">
                 <div class="newArea mainCon">
-                   <h2>What’s new</h2>
-                    <div class="newBox1 newBx">
-                        <a href="#">
-                            <img src="../common/images/new_img1.png" alt="신메뉴 브레드">
-                        </a>
-                        <span>2021.02 Delious Daliy Bread</span>
-                    </div>
-                    <div class="newBox2 newBx">
-                        <a href="#">
-                            <img src="../common/images/new_img2.png" alt="신메뉴 블렌딩티">
-                        </a>
-                        <span>2021.02 Blending  Tea</span>
-                    </div>
-                    <div class="newBox2 newBx">
-                        <a href="#">
-                            <img src="../common/images/new_img3.png" alt="신메뉴 콜드브루">
-                        </a>
-                        <span>2021.02 Cold Brew Series </span>
+                    <h2>What’s new</h2>
+                    <div class="boxArea">
+                        <div class="newBox1 newBx">
+                            <a href="#">
+                                <img src="../common/images/new_img1.png" alt="신메뉴 브레드">
+                            </a>
+                            <span>2021.02 Delious Daliy Bread</span>
+                        </div>
+                        <div class="newBox2 newBx">
+                            <a href="#">
+                                <img src="../common/images/new_img2.png" alt="신메뉴 블렌딩티">
+                            </a>
+                            <span>2021.02 Blending Tea</span>
+                        </div>
+                        <div class="newBox2 newBx">
+                            <a href="#">
+                                <img src="../common/images/new_img3.png" alt="신메뉴 콜드브루">
+                            </a>
+                            <span>2021.02 Cold Brew Series </span>
+                        </div>
                     </div>
                 </div>
-                <div class="mainCon2Bg"></div>    
+                <div class="mainCon2Bg"></div>
             </div>
             <div class="mainCon3">
                 <div class="eventArea">
@@ -170,8 +242,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="swiper-pagination"></div>-->
-                </div> 
+                </div>
             </div>
             <div class="mainCon4 mainCon">
                 <div class="newsCon con">
@@ -218,26 +289,28 @@
                 <div class="franCon">
                     <h3>커피:니 가맹점 모집 안내</h3>
                     <p>누구나 와서 쉴 수 있는<br>
-                    새로운 '제3의 공간' <br>
-                    편안함 속에서 특별한 경험의시작<br>
-                    'COFFEENIE CAFE'를 만나보세요.</p>
+                        새로운 '제3의 공간' <br>
+                        편안함 속에서 특별한 경험의시작<br>
+                        'COFFEENIE CAFE'를 만나보세요.</p>
                     <a href="#" class="moreBt"></a>
                 </div>
-                <div class="advCon con">
-                    <a href="#">
-                        <h3>창업 상담</h3>
-                        <span class="tit">커피:니 빠른 창업 상담</span>
-                        <span class="txt">02-546-1325</span>
-                    </a>
+                <div class="wrap">
+                    <div class="advCon con">
+                        <a href="#">
+                            <h3>창업 상담</h3>
+                            <span class="tit">커피:니 빠른 창업 상담</span>
+                            <span class="txt">02-546-1325</span>
+                        </a>
+                    </div>
+                    <div class="renCon con">
+                        <a href="#">
+                            <h3>렌탈 서비스</h3>
+                            <p>최상급 스페셜티 블렌딩 커피를<br>
+                                이제 사무실에서 즐겨보세요.</p>
+                            <span class="renIco"></span>
+                        </a>
+                    </div>
                 </div>
-                <div class="renCon con">
-                    <a href="#">
-                        <h3>렌탈 서비스</h3>
-                        <p>최상급 스페셜티 블렌딩 커피를<br>
-                        이제 사무실에서 즐겨보세요.</p>
-                        <span class="renIco"></span>
-                    </a>
-                </div>     
             </div>
         </main>
         <footer id="footer">
@@ -284,4 +357,5 @@
         </footer>
     </div>
 </body>
+
 </html>
