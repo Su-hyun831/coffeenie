@@ -10,7 +10,9 @@
 .mainVisArea .swiper-container .swiper-button-prev{width: 60px; height: 60px; background: url(../images/mainVis_previous.svg) no-repeat center center; opacity: 0.8; left: 40px; transition: all 0.3s;}
 .mainVisArea .swiper-container .swiper-button-prev:hover{opacity: 0.5;}
 .mainVisArea .swiper-container .swiper-button-prev:after{display: none;}
-
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column-reverse;
+}
 /*common*/
 .mainCon{width: 1180px; margin: 0 auto;}
 
@@ -49,7 +51,7 @@
 .mainCon4 .con{padding: 30px; border: 1px solid #eaeaea; width: 410px; height: 220px; position: relative; top: 150px; opacity: 0; box-sizing: border-box;}
 .mainCon4 .con h3{font-size: 20px;}
 .mainCon4 .con .conList{margin-bottom: 20px;}
-.mainCon4 .con .conList ul{padding-top: 40px;}
+.mainCon4 .con .conList ul{padding-top: 20px;}
 .mainCon4 .con .conList ul li{line-height: 29px; font-size: 16px;}
 .mainCon4 .con .conList ul li:hover a{text-decoration: underline; color: #5987c5;}
 .mainCon4 .con .conList ul li span{float: right;font-size: 14px;}
@@ -70,7 +72,7 @@ top: 30px;right: 30px;}
 .mainCon4 .advCon .tit{font-size: 18px; font-weight: 500;}
 .mainCon4 .advCon .txt{font-size: 24px; font-weight: 500;}
 .mainCon4 .advCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #fff; margin-top: 10px;}
-.mainCon4 .renCon{float: left; background-color: #fcfdff;position: relative;}
+.mainCon4 .renCon{float: left; background-color: #fcfdff; position: relative;}
 .mainCon4 .renCon h3{line-height: 24px;}
 .mainCon4 .renCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #000; margin-top: 10px;}
 .mainCon4 .renCon p{font-size: 18px; line-height: 30px; padding-top: 25px;}
