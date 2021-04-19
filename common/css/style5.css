@@ -82,8 +82,6 @@
 .conWrap3 .con1 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
 .conWrap3 .con1 .imgBox{margin-top: 60px; overflow: hidden;}
 .conWrap3 .con1 .imgBox .left{float: left; margin-right: 70px; padding-top: 80px;}
-.conWrap3 .con1 .imgBox .left .img{}
-.conWrap3 .con1 .imgBox .left .img img{}
 .conWrap3 .con1 .imgBox .right{float: left;}
 .conWrap3 .con1 .imgBox .right .text{font-size: 16px; font-weight: 500; line-height: 24px; color: #777;}
 .conWrap3 .con1 .imgBox .right .text span{color: #5a88c6;}
@@ -93,7 +91,6 @@
 .conWrap3 .con1 .imgBox .right .txtBox .txt{font-size: 14px; line-height: 24px; padding-left: 15px; position: relative;}
 .conWrap3 .con1 .imgBox .right .txt:after{content: ""; display: block; background: url(../../common/images/sub_images/franchise/3con1_ico.png) no-repeat center center; width: 5px; height: 5px; position: absolute; left: 0; top: 9px;}
 .conWrap3 .con1 .imgBox .right .img{margin-top: 20px; margin-bottom: 10px;}
-.conWrap3 .con1 .imgBox .right .img img{}
 .conWrap3 .con1 .imgBox .right .num{font-size: 14px; font-weight: 300; color: #777;}
 .conWrap3 .con2{margin-top: 100px;}
 .conWrap3 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}

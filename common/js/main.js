@@ -54,7 +54,7 @@ $(function(){
 });
 
 
-//반응형 비주얼
+/*반응형 비주얼*/
 $(function(){
   var $setElem =$('.swiper-slide .switch'),
         $width = window.innerWidth,
@@ -81,4 +81,4 @@ $(function(){
         
     });
     
-    });
+});

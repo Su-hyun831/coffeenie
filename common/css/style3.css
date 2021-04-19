@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*members*/
+/*membership*/
 .tab{position: relative;}
 .tab .tabMenu{background-color: rgba(255, 255, 255, 0.55); position: absolute; left: 50%; bottom:0; height: 60px; border: 1px solid black; text-align: center; transform: translateX(-50%); box-sizing: border-box;}
 .tab .tabMenu ul li{float: left; width: 25%; box-sizing: border-box;}
@@ -8,6 +8,7 @@
 .tab .tabMenu ul li+li{border-left: 1px solid black;}
 .tab .tabMenu ul li a{font-size: 22px; font-weight: 500; line-height: 58px;}
 
+/*members*/
 .conWrap1 .con1{margin-top: 100px;}
 .conWrap1 .con1 img{background-size: cover;}
 .conWrap1 .con2{text-align: center; line-height: 48px; margin-top: 60px;}
