@@ -5,16 +5,17 @@ $(function(){
         $('.moreBtn').hide();
     });
     
+    //네이버 지도 api
     var HOME_PATH = window.HOME_PATH || '.';
     var cityhall = new naver.maps.LatLng(37.5275983,127.0337792),
-    map = new naver.maps.Map('map', {
+        map = new naver.maps.Map('map', {
         center: cityhall,
         zoom: 18
-    }),
-    marker = new naver.maps.Marker({
+        }),
+        marker = new naver.maps.Marker({
         map: map,
         position: cityhall
-    });
+        });
 
     var contentString = [
         '<div class="iw_inner">',
